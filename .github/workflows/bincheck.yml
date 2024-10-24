@@ -8,7 +8,7 @@ permissions:
 jobs:
 
   darwin:
-    runs-on: macos-15
+    runs-on: macos-13
     steps:
     - run: uname -a
     - run: uname -sm
